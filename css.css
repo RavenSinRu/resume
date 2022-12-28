@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+    /* font: normal 15px 'Amatic SC', sans-serif; */
+font-family: 'Amatic SC', sans-serif;
+font-size: 16px;
+font-weight: 500;
+background: rgb(143, 11, 1);
+color: rgb(229, 255, 0);
+}
+
+.infos{
+margin-bottom: 10px;
+}
+
+.infos-text p{
+    font-style:normal;
+    font-weight:450;
+    font-size: large;
+    color: springgreen;
+    margin: 0px;
+}
+.infos-text h2{
+    margin-bottom: 10px;
+}
+.card ul{
+    padding: 0px;
+}
+.card {
+    border: 2px solid rgb(179, 226, 7);
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-bottom:5px;
+    background-color: rgb(10, 114, 62);
+}
+.card h2{
+    margin-bottom: 10px;
+}
+
+.hobby{
+    border-bottom: 4px solid rgb(255, 251, 0);
+    border-left: 4px solid rgb(255, 251, 0);
+ border-bottom-left-radius: 75px;
+}
+
+.rab{
+    border-top: 4px solid rgb(255, 251, 0);
+    border-left: 4px solid rgb(255, 251, 0);
+ border-top-left-radius: 65px;
+}
+
+.container{
+    max-width: 750px;
+margin: auto;
+padding-top: 25px;
+}
+.ava{
+    width:250px;
+    border-radius: 30px;
+    box-shadow:6px 6px 14px rgba(0, 0, 0, .25)
+}
+a{
+    color:aqua;
+    text-decoration: none;
+}
+a:hover{
+text-decoration:underline;
+}
+a:active{
+    color:royalblue;
+}
+a:visited{
+    color:blueviolet;
+}
+.btn{
+    background:#111;
+    padding: 15px 20px;
+    color:rgb(255, 251, 0);
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: .8;
+}

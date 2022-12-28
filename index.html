@@ -6,21 +6,29 @@
     <meta name="keyword" content="Resume, Raven">
     <meta name="description" content="Сайт с резюме Рейвена">
     <title>Raven Resume</title>
+    <link rel="stylesheet" href="css.css">
 </head>
-<body>
+<body class="container">
+    <div class="infos">
     <img src=https://steamuserimages-a.akamaihd.net/ugc/1701786190908691245/9EB218852108734D1A45D26D1C9FBBB2748AD45C/?imw=512&amp;imh=365&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true
-    alt="My photo">
+    alt="My photo" class="ava">
+    <div class="infos-text">
     <h1>Raven Sin</h1>
     <p><strong> Я солдат</strong> и у меня под глазам мешки</p>
     <p>Я солдат и <em>мое дело стрелять чтобы пуля попала в тело врага</em></p>
     <h2>Список соц сетей</h2>
    <a href="https://vk.com/raven_sin" target="_blank">Vk</a>
-        <Ul>
+    </div>    
+    </div>
+    <div class="card hobby">
+   <Ul>
             <h2>Мое хобби</h2>
             <li>Игры</li>
             <li>программирование</li>
             <li>Онимэ</li>
         </Ul>
+        </div>
+        <div class="card rab">
                 <h2>Опыт работы</h2>
                 <table>
                 <thead>
@@ -48,8 +56,10 @@
                     </tr>       
                     </tbody>
                     </table>
+                </div>
+    <div class="contact">
         <h2>Связаться со мной</h2>
-        <form action="">
+        <form>
         <div>
             <label for="name">Ваше имя:</label>
             <input type="text" id="name" placeholder="Введите имя">
@@ -63,9 +73,10 @@
             <br>
             <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение....."></textarea>
            </div>
-           <div>
-            <input type="submit" value="Отправить">
+           <div class="btn">
+            <button type="button">Отправить</button>
            </div>
         </form>
-</body>
+    </div>
+    </body>
 </html>
